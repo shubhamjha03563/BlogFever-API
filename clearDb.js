@@ -9,7 +9,7 @@ const fs = require('fs');
 let dir = __dirname + '/uploads/blogImages';
 
 const app = express();
-dotenv.config({ path: './vars.env' });
+dotenv.config({ path: './.env' });
 
 mongoose
   .connect(process.env.MONGO_URI, {
