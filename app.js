@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(express.static('public'));
 
 // dotenv config
-dotenv.config({ path: './vars.env' });
+dotenv.config({ path: './.env' });
 
 mongoose
   .connect(process.env.MONGO_URI, {
