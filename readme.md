@@ -12,7 +12,7 @@
 
 Open the ".env" file and update the values/ settings to your own.
 
-> POSTMAN import -
+> Run in POSTMAN -
 https://documenter.getpostman.com/view/15467964/TzecD5dH#e97c25dc-a722-4787-b63d-d63b46787476
 
 ## Install Dependencies
