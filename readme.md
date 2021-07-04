@@ -10,10 +10,14 @@
 
 ## Usage
 
-Open the ".env" file and update the values/ settings to your own.
-
-> Run in POSTMAN -
+>Use the live api: 
+Run in POSTMAN -
 https://documenter.getpostman.com/view/15467964/TzecD5dH
+
+OR
+
+> Make it your own: 
+Open the ".env" file and update the values/ settings to your own.
 
 ## Install Dependencies
 
