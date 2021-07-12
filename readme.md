@@ -12,14 +12,11 @@
 
 ## Usage
 
->Use the live api: 
-Run in POSTMAN -
-https://documenter.getpostman.com/view/15467964/TzecD5dH
-
-OR
-
 > Make it your own: 
 Open the ".env" file and update the values/ settings to your own.
+
+> Import to POSTMAN -
+https://documenter.getpostman.com/view/15467964/Tzm8Fb5b
 
 ## Install Dependencies
 
