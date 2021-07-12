@@ -8,6 +8,12 @@
 
 > Error Handling - Effective implementation with each API call tested (with POSTMAN) and every possible error handled. A proper JSON response is sent for each error (status-code and message).
 
+> Security - 
+>> noSql Injection protection
+>> XSS protection (Cross Site Scripting)
+>> Rate Limiter
+>> HPP protection (HTTP Param Pollution)
+
 ## Usage
 
 >Use the live api: 
