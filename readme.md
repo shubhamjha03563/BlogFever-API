@@ -15,8 +15,8 @@
 > Make it your own: 
 Open the ".env" file and update the values/ settings to your own.
 
-> Import to POSTMAN -
-https://documenter.getpostman.com/view/15467964/Tzm8Fb5b
+> Import to POSTMAN (Use the live API)-
+https://documenter.getpostman.com/view/15467964/TzecD5dH
 
 ## Install Dependencies
 
