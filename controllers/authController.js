@@ -83,7 +83,7 @@ exports.getUser = asyncHandler(async (req, res, next) => {
   res.status(200).json({ status: 'pass', data: user });
 });
 
-const sendTokenResponse = asyncHandler(async (user, res, statusCode) => {
+const sendTokenResponse = (user, res, statusCode) => {
   const token = await user.getJwtToken();
   const options = {
     expires: new Date(Date.now() + process.env.COOKIE_EXPIRE),
@@ -93,7 +93,7 @@ const sendTokenResponse = asyncHandler(async (user, res, statusCode) => {
     .cookie('token', token, options)
     .status(statusCode)
     .json({ status: 'pass', token });
-});
+}
 
 // url  POST users/:userId
 exports.updateUser = asyncHandler(async (req, res, next) => {
