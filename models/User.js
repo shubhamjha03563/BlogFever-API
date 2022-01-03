@@ -64,7 +64,7 @@ UserSchema.methods.matchPassword = async function (enteredPassword) {
   return await bcrypt.compare(enteredPassword, this.password);
 };
 
-UserSchema.methods.getJwtToken = async function () {
+UserSchema.methods.getJwtToken = function () {
   return jwt.sign({ id: this._id }, process.env.SECRET, {
     expiresIn: process.env.JWT_EXPIRE,
   });
